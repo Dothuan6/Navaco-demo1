@@ -1,0 +1,8 @@
+{
+  "name": "NAVACO Port Engineering Services",
+  "description": "Website giới thiệu năng lực kỹ thuật, giải pháp bảo trì trọn gói (FCM), retrofit nâng cấp cẩu cảng và điện bờ cho cảng biển tại Việt Nam & Cambodia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

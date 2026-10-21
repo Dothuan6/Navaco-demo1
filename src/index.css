@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Barlow Semi Condensed', sans-serif;
+  --font-sans: 'Be Vietnam Pro', system-ui, sans-serif;
+  --color-navaco-red: #D6011E;
+  --color-navaco-red-dark: #B50019;
+  --color-navaco-graphite: #42454A;
+  --color-navaco-graphite-dark: #2A2C30;
+  --color-navaco-bg: #F7F7F5;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #F7F7F5;
+  color: #26292E;
+  overflow-x: hidden;
+}
+
+.font-condensed {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F1EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4C6C8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #42454A;
+}
+
+/* Characteristic NAVACO angular cut */
+.navaco-angle-br {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%);
+}
+
+.navaco-angle-tl {
+  clip-path: polygon(24px 0, 100% 0, 100% 100%, 0 100%, 0 24px);
+}
